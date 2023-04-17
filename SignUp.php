@@ -43,7 +43,7 @@
       <div class="inputBox">
         <input type="submit" value="create account">
       </div>
-      <p>Already a member? <a href="SignIn.php" class=login> Login</a></p>
+      <p>Already a member? <a href="Index.php" class=login> Login</a></p>
 </div>
 </form>
 </body>
