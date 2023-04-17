@@ -110,4 +110,14 @@ killercluesdb
 | score_11 | BIGINT | fourth round |
 | score_17 | BIGINT | fifth round |
 
+# Installation
+To play Killer Clues, a game built using PHP and MySQL, you will need to have a local development environment set up on your machine. One way to do this is by using XAMPP, a cross-platform web server solution that includes Apache, MySQL, and PHP. To install XAMPP, you can download the appropriate version for your operating system from the Apache Friends website and run the installer. Once XAMPP is installed, you will need to start the Apache and MySQL services to run the game. You can then import the Ahoy database into your local MySQL server and modify the database configuration settings in the game's PHP files to connect to your local database. Finally, you can open the game in your web browser by navigating to the game's index.php file in the XAMPP htdocs directory. With these steps completed, you should be able to play Ahoy locally on your machine.
 
+# About Me
+I'm currenly studying 3rd BTECH in ANITS VSKP , always wanted to develop these kind of mystery games. My interests are data science and web development.
+# Skills
+* Javascript
+* PHP
+* HTML
+* MySql
+* CSS
