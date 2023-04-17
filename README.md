@@ -62,3 +62,52 @@ else{
   $val=5;
 }
   </pre>
+
+# Possible way to solve game
+
+### Riddle1 
+Ans) Lawyer
+
+### Riddle2
+Ans) Doctor
+
+### Riddle3
+Ans) Bussinessman
+
+### Riddle4
+Ans) Politician
+
+### Riddle5
+Ans) Library
+
+#  Technology Used
+The game creation process often involves a mix of different technologies, and in the case of this particular game, several programming languages were utilized. PHP is a server-side scripting language used to build the game's back-end functionality, while JavaScript was used for front-end development to make the game interactive and responsive. HTML was used for the game's user interface and web design, providing the basic structure of the game's layout. Additionally, Python was likely used for scripting and game logic, as it is a versatile language often used for game development. Overall, this combination of technologies allowed for a robust and engaging game to be created, leveraging the unique strengths of each programming language.
+* Clues: There are clues in evry page which leads to next clue
+* Users: It contains there username email and there password.
+* Scores and Time: Every clue has a start and end timer.
+
+# Database Used
+
+killercluesdb
+
+# Tables used
+
+## users
+| ID | DATATYPE | INDEX |
+| --- | --- | --- |
+| id | varchar(256) | primary key |
+| username | varchar(256) | not null  |
+| email | varchar(256) | not null |
+| pass | varchar(256) | not null |
+| total_score | INT | default = 0 |
+| total_time | INT | default = 0 |
+## score
+| ID | DATATYPE | INDEX |
+| --- | --- | --- |
+| score_3 | BIGINT | first round |
+| score_7 | BIGINT | second |
+| score_9 | BIGINT | third round |
+| score_11 | BIGINT | fourth round |
+| score_17 | BIGINT | fifth round |
+
+
