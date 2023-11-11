@@ -60,7 +60,7 @@
 
 <script>
         window.onload = function() {
-        if (performance.navigation.type === 1) {
+        if (performance.navigation.type == 1) {
             refreshFlag = true;
             var confirmRefresh = confirm('Do you want to start from the beginning?');
             if (confirmRefresh) {
